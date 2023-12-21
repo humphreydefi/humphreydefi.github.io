@@ -11,23 +11,53 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1a1a1a;
     color: #fff;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
-header h1 {
-    font-size: 2.5em;
+header img {
+    max-width: 100px;
+    margin-bottom: 10px;
 }
 
-header p {
+header h1 {
+    font-size: 2em;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
     font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #00bcd4;
+    border-radius: 5px;
 }
 
 .features {
-    padding: 60px 0;
     background-color: #f4f4f4;
+    padding: 80px 0;
 }
 
 .features h2 {
@@ -47,41 +77,14 @@ header p {
     font-size: 1.2em;
 }
 
-.cta {
-    background-color: #007bff;
-    color: #fff;
-    padding: 80px 0;
-    text-align: center;
-}
-
-.cta h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.cta p {
-    font-size: 1.2em;
-    margin-bottom: 40px;
-}
-
-.button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #fff;
-    background-color: #0056b3;
-    border-radius: 5px;
-}
-
-.footer {
-    background-color: #333;
+footer {
+    background-color: #1a1a1a;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
-.footer p {
+footer p {
     margin: 0;
     font-size: 1em;
 }
